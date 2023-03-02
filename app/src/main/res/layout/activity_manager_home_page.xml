@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagerHomePage">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/MgrWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="640dp"
+            android:text="Welcome , Name"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/button34"
+            android:layout_width="212dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:onClick="ManagerViewProfile"
+            android:text="View Profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/MgrWelcome" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="ViewTasksActivity"
+            android:text="View Tasks"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="AddEmployeeActivity"
+            android:text="Add Employee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="ViewAmbulanceActivity"
+            android:text="View Ambulances"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="ViewEmployeesActivity"
+            android:text="View Employee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="DelEmployeeActivity"
+            android:text="Remove Employee"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="VerifyTasksActivity"
+            android:text="Verify Tasks"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+        <Button
+            android:id="@+id/button29"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="ManageAmbulanceActivity"
+            android:text="Manage Ambulances"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="ExitApp"
+            android:text="Exit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button29" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="DelAmbulanceActivity"
+            android:text="Remove Ambulance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="EditEmployeeActivity"
+            android:text="Edit Employees"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="212dp"
+            android:layout_height="50dp"
+            android:onClick="AddAmbulanceActivity"
+            android:text="Add Ambulance"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button34" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
